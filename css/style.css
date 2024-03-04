@@ -21,7 +21,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    width: 2800px;
+    width: 16000px;
     height: 100%;
 }
 
@@ -36,7 +36,7 @@ main {
 
 .item {
     position: relative;
-    width: 400px;
+    width: 1280px;
     height: 100%;
     overflow: hidden;
     /* background-color: red; /* PLACEHOLDER */
@@ -45,7 +45,7 @@ main {
 .img {
     position: absolute;
     left: -100px;
-    width: 600px;
+    width: 1280px;
     height: 100%;
     background-size: cover;
     background-position: center;

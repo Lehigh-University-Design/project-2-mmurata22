@@ -8,7 +8,7 @@ let ease = .05;
 
 // refer here to adding images - may change .png to .jpeg
 images.forEach((img, idx) => {
-    img.style.backgroundImage = `url(./images/${idx+1}.png)`
+    img.style.backgroundImage = `url(/images/${idx+1}.png)`
 })
 
 function lerp(start, end, t){
