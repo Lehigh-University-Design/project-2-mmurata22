@@ -1,14 +1,13 @@
+/* sliding component style */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    background-color: #000000;
+    background-color: #facf9d;
     overscroll-behavior: none;
 }
-
 main {
     position: fixed;
     top: 0;
@@ -16,32 +15,28 @@ main {
     width: 100%;
     height: 100vh;
 }
-
 .slider {
     position: absolute;
     top: 0;
     left: 0;
-    width: 16000px;
+    width: 16500px;
     height: 100%;
 }
-
 .slider-inner {
     position: absolute;
     top: 15%;
     height: 70%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-
 .item {
     position: relative;
     width: 1280px;
-    height: 100%;
+    height: 832px;
     overflow: hidden;
     /* background-color: red; /* PLACEHOLDER */
 }
-
 .img {
     position: absolute;
     left: -100px;
