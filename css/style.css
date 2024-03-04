@@ -23,8 +23,7 @@ main {
     height: 100%;
 }
 .slider-inner {
-    
-    margin-top: 50px;
+    margin-top: 0px;
     height: 70%;
     width: 100%;
     display: flex;
