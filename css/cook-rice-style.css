@@ -1,0 +1,115 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/Kitchen\ Tiled\ Wall\ \(Small\).png');
+    background-size: cover;
+    z-index: 1;
+}
+
+.cooker {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%) scale(.70);
+    z-index: 2;
+}
+
+.small-pot {
+    position: absolute;
+    top: 45%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.continue-button {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    background-image: url('/images/Continue\ Right\ Button.png');
+    background-size: contain; 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer; 
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+}
+
+.previous-button {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-image: url('/images/Previous\ Left\ Button.png');
+    background-size: contain; 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer; 
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+}
+
+.yellow-box-one {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%) scale(.8);
+    z-index: 2;
+}
+
+.yellow-box-two {
+    position: absolute;
+    top: 80%;
+    left: 73%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 2;
+}
+
+.yellow-box-three {
+    position: absolute;
+    top: 15%;
+    left: 63%;
+    transform: translate(-50%, -50%) scale(.8);
+    z-index: 2;
+}
+
+
+.description-one {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 76%;
+    left: 25%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description-two {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 76%;
+    left: 73%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description-three {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 10%;
+    left: 63%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}

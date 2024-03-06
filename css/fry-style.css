@@ -1,0 +1,135 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/Kitchen\ Tiled\ Wall\ \(Small\).png');
+    background-size: cover;
+    z-index: 1;
+}
+
+.pan {
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(-10deg) scaleX(-1) scale(1.4);
+    z-index: 2;
+}
+
+.carrots {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    transform: translate(-50%, -50%) scale(.9);
+    z-index: 2;
+}
+
+.potatoes {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%) ;
+    z-index: 2;
+}
+
+.oil {
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    z-index: 2;
+}
+
+.yellow-box-one{
+    position: absolute;
+    top: 16%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.yellow-box-two{
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-50%, -50%) scale(.7);
+    z-index: 2;
+}
+
+.description-one {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 1%;
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description-two {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 9%;
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description-three {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 20%;
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description-four {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 81%;
+    left: 85%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.continue-button {
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    background-image: url('/images/Continue\ Right\ Button.png');
+    background-size: contain; 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer; 
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+}
+
+.previous-button {
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    background-image: url('/images/Previous\ Left\ Button.png');
+    background-size: contain; 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer; 
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+}

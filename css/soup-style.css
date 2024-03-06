@@ -1,0 +1,135 @@
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/Kitchen\ Tiled\ Wall\ \(Small\).png');
+    background-size: cover;
+    z-index: 1;
+}
+
+.pot{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%) scale(1.3);
+    z-index: 2;
+}
+
+.onion{
+    position: absolute;
+    top: 13%;
+    left: 43%;
+    transform: translate(-50%, -50%) scale(.6);
+    z-index: 2;
+}
+
+.chicken{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    transform: translate(-50%, -50%) scale(.7) rotate(50deg);
+    z-index: 2;
+}
+
+.garlic{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.55);
+    z-index: 2;
+}
+
+.tomatoes{
+    position: absolute;
+    top: 35%;
+    left: 64%;
+    transform: translate(-50%, -50%) scale(.75);
+    z-index: 2;
+}
+
+.water{
+    position: absolute;
+    top: 15%;
+    left: 64%;
+    transform: translate(-50%, -50%) scale(.5);
+    z-index: 2;
+}
+
+.tomato-sauce{
+    position: absolute;
+    top: 15%;
+    left: 54%;
+    transform: translate(-50%, -50%) scale(.5);
+    z-index: 2;
+}
+
+.continue-button {
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    background-image: url('/images/Continue\ Right\ Button.png');
+    background-size: contain; 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer; 
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+}
+
+.previous-button {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    background-image: url('/images/Previous\ Left\ Button.png');
+    background-size: contain; 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer; 
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+}
+
+.yellow-box-one{
+    position: absolute;
+    top: 84%;
+    left: 16.5%;
+    transform: translate(-50%, -50%) scale(1.05);
+    z-index: 2;
+}
+
+.yellow-box-two{
+    position: absolute;
+    top: 84%;
+    left: 86%;
+    transform: translate(-50%, -50%) scale(.8);
+    z-index: 3;
+}
+
+.description-one {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 80%;
+    left: 16.5%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.description-two {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 80%;
+    left: 86%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    white-space: nowrap;
+}

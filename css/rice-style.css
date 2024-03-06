@@ -1,0 +1,89 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/Kitchen\ Tiled\ Wall\ \(Small\).png');
+    background-size: cover;
+    z-index: 1;
+}
+
+.rice {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%) scale(.70);
+    z-index: 2;
+}
+
+.rice-pot {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    transform: translate(-50%, -50%) scale(.80);
+    z-index: 2;
+}
+
+.water {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%) scale(.95);
+    z-index: 2;
+}
+
+.yellow-box {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%) scale(1.2);
+    z-index: 2;
+}
+
+.description {
+    position: absolute;
+    font-family: 'Architects Daughter';
+    top: 76%;
+    left: 20%; 
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.continue-button {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    background-image: url('/images/Continue\ Right\ Button.png');
+    background-size: contain; 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer; 
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+}
+
+.previous-button {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-image: url('/images/Previous\ Left\ Button.png');
+    background-size: contain; 
+    width: 100px;
+    height: 100px; 
+    cursor: pointer; 
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+}
