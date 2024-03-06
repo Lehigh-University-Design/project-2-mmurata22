@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/images/Checker\ Repeat\ Tile.png');
+    background-image: url('images/Checker\ Repeat\ Tile.png');
     background-size: cover;
     z-index: 1;
 }
@@ -53,7 +53,7 @@
     position: absolute;
     top: 80%;
     left: 40%;
-    background-image: url('/images/Continue Down Button.png');
+    background-image: url('images/Continue Down Button.png');
     background-size: contain; 
     width: 100px;
     height: 100px; 
