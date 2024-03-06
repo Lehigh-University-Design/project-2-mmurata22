@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/images/tiled\ wall.png');
+    background-image: url('images/tiled\ wall.png');
     background-size: cover;
     z-index: 1;
 }
@@ -139,7 +139,7 @@
     position: absolute;
     top: 90%;
     left: 85%;
-    background-image: url('/images/Continue\ Right\ Button.png');
+    background-image: url('images/Continue\ Right\ Button.png');
     background-size: contain; 
     width: 100px;
     height: 100px; 
@@ -153,7 +153,7 @@
     position: absolute;
     top: 1%;
     left: 5%;
-    background-image: url('/images/Previous\ Left\ Button.png');
+    background-image: url('images/Previous\ Left\ Button.png');
     background-size: contain; 
     width: 100px;
     height: 100px; 
